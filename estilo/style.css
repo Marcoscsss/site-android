@@ -44,14 +44,14 @@ header > h1 {
 
 header > p {
     color: white;
-    font-family: var(--fonte-destaque);
+    font-family: var(--fonte-padraote);
     font-size: 1.2em;
     max-width: 600px;
     padding-left: 10px;
     padding-right: 10px;
     margin: auto;
-    margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
+    margin-bottom: 50px;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.315);
     
 }
 
@@ -135,6 +135,10 @@ main h2 {
     background-image: linear-gradient(to right, var(--cor1), transparent);
     text-indent: 1em;
 
+}
+
+main img {
+    width: 100%;
 }
 
 img.bug {
